@@ -1,12 +1,15 @@
 import Link from 'next/link';
 
-export default function Page() {
-  return (
-    <main>
-      Base
 
-      <Link className='text-blue-500' href="/home">Home</Link>
+
+export default function Page() {
+
+  return (
+    <>
+      Home
+
       <Link className='text-blue-500' href="/other">Other</Link>
-    </main>
+      <Link className='text-blue-500' href="/">Base</Link>
+    </>
   );
 }
